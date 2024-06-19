@@ -11,6 +11,14 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+      - name: build and install ukma:util
+        run:
+          cd util
+          mvn clean install
+      - name: build and install ukma:model
+        run:
+          cd model
+          mvn clean install
       - name: Run static code analysis
         run: mvn checkstyle:check
 
