@@ -56,3 +56,4 @@ jobs:
         run: |
           docker build -t my-dockerhub-username/my-app:latest .
           docker push my-dockerhub-username/my-app:latest
+          
