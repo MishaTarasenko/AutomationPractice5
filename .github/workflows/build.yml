@@ -56,3 +56,4 @@ jobs:
         run: |
           docker build -t mishatarasasenko/my-app:latest .
           docker push mishatarasasenko/my-app:latest
+          
