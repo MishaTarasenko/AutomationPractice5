@@ -2,7 +2,7 @@ FROM ubuntu:latest
 LABEL authors="k1ng"
 
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:21-jre-slim
+FROM eclipse-temurin:21-jre
 
 # Set the working directory
 WORKDIR /app
